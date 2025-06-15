@@ -1,0 +1,67 @@
+.schedule-form-wrapper {
+    padding: 2rem;
+    background: #f4f4f4;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Use center if you want vertical centering */
+}
+
+/* New wrapper to center title and form together */
+.schedule-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.email-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.email-form input,
+.email-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.email-form button {
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-msg {
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+}

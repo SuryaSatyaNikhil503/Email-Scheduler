@@ -1,0 +1,41 @@
+/*
+ * Copyright © 2025 All Rights Reserved | Developer: Nikhil
+ */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 32px;
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.nav-links .active a {
+    color: #111827;
+    font-weight: 600;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 4px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
