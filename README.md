@@ -128,33 +128,6 @@ Based on a standard implementation of an Email Scheduler system (including manag
 
 ---
 
-### 📈 Dashboard & Metrics
-
-| Method | Endpoint                      | Description                                                   |
-| ------ | ----------------------------- | ------------------------------------------------------------- |
-| `GET`  | `/api/emails/statistics`      | Get count of total/sent/scheduled/failed emails               |
-| `GET`  | `/api/emails/status/{status}` | Get emails filtered by status (`SENT`, `FAILED`, `SCHEDULED`) |
-
----
-
-### 👥 Recipient Management *(if applicable)*
-
-| Method   | Endpoint                  | Description                      |
-| -------- | ------------------------- | -------------------------------- |
-| `GET`    | `/api/recipients`         | Get all recipients in the system |
-| `POST`   | `/api/recipients`         | Add new recipients to the system |
-| `DELETE` | `/api/recipients/{email}` | Remove recipient by email        |
-
----
-
-### 🛠️ Utility
-
-| Method | Endpoint      | Description                              |
-| ------ | ------------- | ---------------------------------------- |
-| `GET`  | `/api/health` | Health check endpoint for backend status |
-
----
-
 ### ✅ Notes:
 
 * All POST requests expect `Content-Type: application/json`
@@ -187,6 +160,10 @@ Based on a standard implementation of an Email Scheduler system (including manag
 
 * [Surya Satya Nikhil](https://www.linkedin.com/in/gssnikhil/)
 
+---
+
+--- 
+## Documentation: *[Link](https://docs.google.com/document/d/10dbVweh1xOdsAoIDH2gpXe4WhHqWtQ6N/edit?usp=sharing&ouid=113671945992138409061&rtpof=true&sd=true)
 ---
 
 ## 📄 License
